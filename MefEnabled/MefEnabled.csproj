@@ -129,7 +129,6 @@
     </Compile>
     <Compile Include="Recomposable.cs" />
     <Compile Include="RecomposableLoggerImporter.cs" />
-    <Compile Include="RubyDirectoryPartSource.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MefEnabledInterfaces\MefEnabled.Interfaces.csproj">

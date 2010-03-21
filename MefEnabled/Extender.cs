@@ -35,10 +35,6 @@ namespace MefEnabled
             catalog.Catalogs.Add(generatorsCatalog);
             catalog.Catalogs.Add(UICatalog);
 
-            var source = new RubyDirectoryPartSource(generatorsPath);
-            var rubyCatalog = new RubyCatalog(source);
-            catalog.Catalogs.Add(rubyCatalog);
-
             //Set the defaults....
             CatalogExportProvider mainProvider = new CatalogExportProvider(assemblyCatalog);
             CompositionContainer container = new CompositionContainer(catalog, mainProvider);

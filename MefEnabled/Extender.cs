@@ -30,11 +30,11 @@ namespace MefEnabled
             CreatePathIfRequied(uiPath);
             UICatalog = new DirectoryCatalog(uiPath);
 
-
             AggregateCatalog catalog = new AggregateCatalog();
             catalog.Catalogs.Add(generatorsCatalog);
             catalog.Catalogs.Add(UICatalog);
 
+            //RUBY RUBY RUBY!!!
             var source = new RubyDirectoryPartSource(generatorsPath);
             var rubyCatalog = new RubyCatalog(source);
             catalog.Catalogs.Add(rubyCatalog);

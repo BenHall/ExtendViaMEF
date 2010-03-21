@@ -8,7 +8,7 @@ class RubyGenerator < PartDefinition
 	export IGenerator
 	
 	def get
-		['Ruby', 'Ruby2', 'Ruby3']
+		%W(This is an array of characters to output for data generation)
 	end
 
 end

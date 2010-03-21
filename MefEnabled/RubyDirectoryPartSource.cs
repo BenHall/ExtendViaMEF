@@ -15,19 +15,9 @@ namespace MefEnabled
         }
 
         public override void Execute(ScriptEngine scriptEngine)
-        {
-            if (scriptEngine == null)
-            {
-                throw new ArgumentNullException("scriptEngine");
-            }
-
-            var info = new DirectoryInfo(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, path));
-            if (info.Exists == false)
-            {
-                throw new Exception(string.Format("Can't find path: {0}", path));
-            }
-
-            var rubyFiles = info.GetFiles("*.rb");
+        {          
+            var directoryInfo = new DirectoryInfo(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, path));
+            var rubyFiles = directoryInfo.GetFiles("*.rb");
 
             foreach (FileInfo file in rubyFiles)
             {

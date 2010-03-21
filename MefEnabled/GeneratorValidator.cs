@@ -15,7 +15,7 @@ namespace MefEnabled
             if (generatorAttributes.Length > 0)
                 return ((GeneratorAttribute)generatorAttributes[0]).DisplayName;
             else
-                return string.Empty;
+                return instance.Name;
         }
 
 

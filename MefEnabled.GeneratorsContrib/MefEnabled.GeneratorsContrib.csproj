@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.30729</ProductVersion>
+    <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{B2CFE0A1-3BB6-4B11-B16C-8FE3C3E5987C}</ProjectGuid>
     <OutputType>Library</OutputType>
@@ -34,7 +34,7 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition, Version=2009.4.6.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Libs\MEF Preview 5\MEF Preview 5\bin\System.ComponentModel.Composition.dll</HintPath>
+      <HintPath>..\lib\System.ComponentModel.Composition.dll</HintPath>
     </Reference>
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>

@@ -4,6 +4,7 @@ using System.ComponentModel.Composition.Hosting;
 using System.Reflection;
 using System.IO;
 using MefEnabled.Interfaces;
+using Microsoft.ComponentModel.Composition.Scripting;
 
 namespace MefEnabled
 {
@@ -34,6 +35,9 @@ namespace MefEnabled
             catalog.Catalogs.Add(generatorsCatalog);
             catalog.Catalogs.Add(UICatalog);
 
+            var source = new RubyDirectoryPartSource(generatorsPath);
+            var rubyCatalog = new RubyCatalog(source);
+            catalog.Catalogs.Add(rubyCatalog);
 
             //Set the defaults....
             CatalogExportProvider mainProvider = new CatalogExportProvider(assemblyCatalog);

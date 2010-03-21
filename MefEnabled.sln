@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MefEnabled", "MefEnabled\MefEnabled.csproj", "{EF6637FB-630D-414B-8925-3FE98D9AFEC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MefEnabled.Generators", "MefEnabled.Generators\MefEnabled.Generators.csproj", "{34BDC79F-2E3E-4615-87C4-C1E6FAC88E4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MefEnabled.Interfaces", "MefEnabledInterfaces\MefEnabled.Interfaces.csproj", "{62261187-970A-4B11-9AEB-E1A42BA56E3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MefEnabled.GeneratorsContrib", "MefEnabled.GeneratorsContrib\MefEnabled.GeneratorsContrib.csproj", "{B2CFE0A1-3BB6-4B11-B16C-8FE3C3E5987C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MefEnabled.CustomControls", "MefEnabled.CustomControls\MefEnabled.CustomControls.csproj", "{A53C5B18-8B20-46D0-99D1-3A370B15B20D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF6637FB-630D-414B-8925-3FE98D9AFEC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF6637FB-630D-414B-8925-3FE98D9AFEC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF6637FB-630D-414B-8925-3FE98D9AFEC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF6637FB-630D-414B-8925-3FE98D9AFEC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34BDC79F-2E3E-4615-87C4-C1E6FAC88E4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34BDC79F-2E3E-4615-87C4-C1E6FAC88E4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34BDC79F-2E3E-4615-87C4-C1E6FAC88E4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34BDC79F-2E3E-4615-87C4-C1E6FAC88E4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62261187-970A-4B11-9AEB-E1A42BA56E3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62261187-970A-4B11-9AEB-E1A42BA56E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62261187-970A-4B11-9AEB-E1A42BA56E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62261187-970A-4B11-9AEB-E1A42BA56E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2CFE0A1-3BB6-4B11-B16C-8FE3C3E5987C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2CFE0A1-3BB6-4B11-B16C-8FE3C3E5987C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2CFE0A1-3BB6-4B11-B16C-8FE3C3E5987C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2CFE0A1-3BB6-4B11-B16C-8FE3C3E5987C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A53C5B18-8B20-46D0-99D1-3A370B15B20D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A53C5B18-8B20-46D0-99D1-3A370B15B20D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A53C5B18-8B20-46D0-99D1-3A370B15B20D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A53C5B18-8B20-46D0-99D1-3A370B15B20D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
